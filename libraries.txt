@@ -1,0 +1,3 @@
+DHT sensor library
+ThingerCore32
+thinger.io
