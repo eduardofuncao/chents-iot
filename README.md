@@ -6,6 +6,9 @@
 
 O Chents é um sistema de monitoramento de enchentes desenvolvido com o microcontrolador ESP32. O sistema é capaz de monitorar o nível da água, temperatura, umidade e condições de iluminação do ambiente, enviando alertas quando os níveis de água ultrapassam um limite predefinido.
 
+## Vídeo Demo
+(https://youtu.be/OtpVxGDVP0A)[https://youtu.be/OtpVxGDVP0A]
+
 ## Funcionalidades
 
 - 📊 Monitoramento em tempo real do nível da água
@@ -82,13 +85,6 @@ Monte o circuito conforme as seguintes conexões:
 
 6. Compile e faça o upload do código para o ESP32.
 
-### 3. Configuração da Plataforma Thinger.io
-
-1. Adicione um novo dispositivo com o mesmo DEVICE_ID configurado no código.
-2. Configure o dashboard para visualizar os dados:
-   - Adicione widgets para temperatura, umidade, nível de água e status de alerta.
-   - Configure um botão para controlar o buzzer remotamente.
-
 ## Uso
 
 Após a instalação e configuração, o sistema irá:
@@ -117,8 +113,6 @@ O sistema funciona com o seguinte fluxo:
 3. Se o nível for excedido, o LED é ativado e o status de alerta é atualizado.
 4. Todos os dados são enviados para a plataforma Thinger.io através da Internet.
 5. O usuário pode visualizar os dados e controlar o buzzer através do dashboard.
-
-## Personalização
 
 ### Ajustando Thresholds
 
