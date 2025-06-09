@@ -7,7 +7,7 @@
 O Chents é um sistema de monitoramento de enchentes desenvolvido com o microcontrolador ESP32. O sistema é capaz de monitorar o nível da água, temperatura, umidade e condições de iluminação do ambiente, enviando alertas quando os níveis de água ultrapassam um limite predefinido.
 
 ## Vídeo Demo
-(https://youtu.be/OtpVxGDVP0A)[https://youtu.be/OtpVxGDVP0A]
+[https://youtu.be/OtpVxGDVP0A](https://youtu.be/OtpVxGDVP0A)
 
 ## Funcionalidades
 
